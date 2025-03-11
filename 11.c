@@ -3,7 +3,7 @@
 #define s scanf 
 int main(){
     long long int num,rev=0,rem=0,b;
-    p("enter three digit number : ");
+    p("enter number : ");
     s("%lld", &num);
     b = num;
     while(num != 0){
