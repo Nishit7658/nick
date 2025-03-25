@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main(void){
 
-    int i;
-    float max, min, num[10];
-    for (i=0; i<10; i++){
+    int i,n;
+    float max, min, num[n];
+
+    printf("Enter the number you want to store in array : ");
+    scanf("%d", &n);
+
+    for (i=0; i<n; i++){
         printf("Enter the Number:");
         scanf("%f", &num[i]);
     }
@@ -12,7 +16,7 @@ int main(void){
     max = num[0];
     min = num[0];
 
-    for ( i=0; i<10; i++){
+    for ( i=0; i<n; i++){
         if (num[i] > max){
             max = num[i];
         }

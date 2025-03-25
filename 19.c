@@ -3,7 +3,7 @@ int main(){
     int n,i;
     float sum = 0;
 
-    printf("Enter how many number is there : ");
+    printf("Enter the number you want to store in array : ");
     scanf("%d", &n);
 
     int a[n];
