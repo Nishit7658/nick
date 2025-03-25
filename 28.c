@@ -7,7 +7,7 @@ int main(){
  int i;
 
  printf("Enter the string : ");
- gets(a);
+ fgets(a,100,stdin);
 
  for (i = 0; a[i] != '\0'; i++){
     b[i] = a[i];
