@@ -1,7 +1,15 @@
-#include <stdio.h>
-int main () {
-    
-num1[3][3]= {{1,2,3},{1,2,3},{1,2,3}};
-num2[3][3]= {{1,1,1},{1,1,1},{1,1,1}};
+#include<stdio.h>
+int main(){
+    int i,j,row,space;
 
-for(int i=1;i<=3;i++);
+    printf("enter the number of row : ");
+    scanf("%d", &row);
+
+    for (i = 0; i <= space; i++){
+        for (j = 0; j < i; j++){
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
